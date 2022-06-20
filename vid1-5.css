@@ -1,0 +1,127 @@
+/* div {
+    color: lightcoral; /* inherited */
+    /* border: 1px solid grey; /* not inherited */
+   /* margin: 40px;
+    font-weight: bold;
+} */
+
+/* inherit styles from parent that aren't auto-inherited */
+/* p {
+    border: inherit;
+    margin: inherit;
+    color: crimson; /* more specific selector overrides parent's */
+/* } */
+
+/* overrides other p selector because it's below it */
+/* p {
+    color: orange;
+} */
+
+/* div p selector more specific than p selector though, so would override */
+
+
+/* selects all anchor tags with the href attribute */
+/* a[href] {
+    background-color: lightgreen;
+} */
+
+/* selects only those with specific href value */
+/* a[href="https://www.youtube.com"] {
+    background-color: lightpink;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+} */
+
+/* any a with href that includes "youtube" */
+/* a[href*="youtube"] {
+    background-color: lightpink;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+} */
+
+/* $ means any href that ends in the phrase */
+/* a[href$=".com"] {
+    color: white;
+    background: red;
+    border: 2px solid blue;
+} */
+
+
+/* for p tag children of div parent tag, "descendent selector" */
+/* div .error{
+    color: purple;
+} */
+
+/* div.error selects div tags with class error. 
+   div .error selects all tags with class error that are children of 
+   a div parent tag.
+
+
+/* p.error {
+    color: red;
+}
+
+p.success {
+    color: lightgreen;
+} */
+
+/* for all p tags that have both success and feedback classes */
+/* p.success.feedback {
+    border: 1px dashed lightgreen;
+} */
+
+/* # is for ids, ids have to be unique, unlike classes*/
+/* #content {
+    background-color: lightgrey;
+    padding: 20px;
+} */
+
+/* span{
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+}
+div{
+    /* display: inline; */
+   /* border: 2px solid crimson;
+    margin: 20px;
+    padding: 20px;
+} */
+
+
+/* h1{
+    color: orange;
+    background-color: slategray;
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: arial;
+    text-align: center;
+}
+p {
+    color:slategray;
+    text-align: right;
+    line-height: 30px;
+    letter-spacing: 3px;
+    column-count: 2;
+    column-gap: 60px;
+}
+ul{
+    /* border-width: 4px;
+    border-style: solid;
+    border-color: crimson; */
+    /* border: 4px solid crimson; */
+    /*border-bottom: 4px dotted crimson;
+    border-left: 8px dashed rgb(20, 220, 137);
+
+}
+li {
+    list-style-type: none;
+    /* text-shadow: 2px 2px lightgray; */
+    /*text-shadow: 2px 2px #E9E9E9;
+} */
+
+
